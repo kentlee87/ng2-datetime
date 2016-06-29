@@ -1,5 +1,7 @@
 import {Component, Output, Input, EventEmitter, HostListener, AfterViewInit, OnDestroy} from '@angular/core';
 import {ControlValueAccessor, NgControl} from '@angular/common';
+declare var $:any;
+declare var jQuery:any;
 
 @Component({
     selector: 'datetime',
